@@ -8,6 +8,9 @@
 En este repositorio encontraras ejemplos del avance de programacion 2 de el tema de recursividad
 realizados por el aux. Roberto Dominguez
 
+## Entorno de desarrollo utilizado
+Se utilizo RAD Studio delpli/c++ como entorno de desarrollo 
+
 <a href="https://www.youtube.com/channel/UCPoHHJbICtEhASSQo52I3PA/playlists">
 Canal de youtube
 </a>
