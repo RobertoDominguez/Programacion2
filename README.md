@@ -6,7 +6,7 @@
 
 ## Programacion2 UAGRM FICCT
 En este repositorio encontraras ejemplos del avance de programacion 2 de el tema de recursividad
-por Roberto Dominguez
+realizados por el aux. Roberto Dominguez
 
 <a href="https://www.youtube.com/channel/UCPoHHJbICtEhASSQo52I3PA/playlists">
 Canal de youtube
