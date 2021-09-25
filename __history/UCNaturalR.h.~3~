@@ -1,0 +1,16 @@
+//---------------------------------------------------------------------------
+
+#ifndef UCNaturalRH
+#define UCNaturalRH
+//---------------------------------------------------------------------------
+#endif
+
+class NaturalR{
+  private:
+
+  public:
+
+	short mayoriDig(int n);
+	int invertirNum(int n);
+
+};
