@@ -385,6 +385,14 @@ object Form1: TForm1
         Caption = 'esPrimo'
         OnClick = esPrimo1Click
       end
+      object ponerDigitoMayorAlFinal1: TMenuItem
+        Caption = 'ponerDigitoMayorAlFinal'
+        OnClick = ponerDigitoMayorAlFinal1Click
+      end
+      object serie11: TMenuItem
+        Caption = 'serie1'
+        OnClick = serie11Click
+      end
     end
     object Cadena1: TMenuItem
       Caption = 'Cadena'

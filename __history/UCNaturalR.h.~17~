@@ -1,0 +1,25 @@
+//---------------------------------------------------------------------------
+
+#ifndef UCNaturalRH
+#define UCNaturalRH
+//---------------------------------------------------------------------------
+#endif
+
+class NaturalR{
+  private:
+	int eliminarDigitoPosicion(int n,unsigned short k,unsigned short actual);
+	bool esPrimo(int n,int x,unsigned short c);
+    float serie1(unsigned short n,unsigned short dig);
+  public:
+	short cantidadDigitos(int n);
+	int sumaDigitos(int n);
+	short mayorDig(int n);
+	int invertirNum(int n);
+	int eliminarDigitosRepetidos(int n);
+	int eliminarDigitoPosicion(int n,unsigned short k);
+	int intercambiarDigitos(int n,unsigned short d1,unsigned short d2);
+	bool esPrimo(int n);
+	void eliminarDigito(int &n,unsigned short dig);
+	void ponerMayorAlFinal(int &n);
+	float serie1(unsigned short n); //1+4/3+8/7+16/15
+};

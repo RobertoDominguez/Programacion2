@@ -62,6 +62,8 @@ __published:	// IDE-managed Components
 	TMenuItem *sumaDeDigitos1;
 	TMenuItem *intercambiarDigitos1;
 	TMenuItem *esPrimo1;
+	TMenuItem *ponerDigitoMayorAlFinal1;
+	TMenuItem *serie11;
 	void __fastcall Button1Click(TObject *Sender);
 	void __fastcall DigitoMayor1Click(TObject *Sender);
 	void __fastcall InvertirNumero1Click(TObject *Sender);
@@ -75,6 +77,8 @@ __published:	// IDE-managed Components
 	void __fastcall sumaDeDigitos1Click(TObject *Sender);
 	void __fastcall intercambiarDigitos1Click(TObject *Sender);
 	void __fastcall esPrimo1Click(TObject *Sender);
+	void __fastcall ponerDigitoMayorAlFinal1Click(TObject *Sender);
+	void __fastcall serie11Click(TObject *Sender);
 private:	// User declarations
 	NaturalR n;
 	int opt;

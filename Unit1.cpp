@@ -85,8 +85,19 @@ void __fastcall TForm1::Button1Click(TObject *Sender)
 			if (n.esPrimo(num)) {
 				Label1->Caption="El numero es Primo";
 			}else{
-                Label1->Caption="El numero No es Primo";
-            }
+				Label1->Caption="El numero No es Primo";
+			}
+		break;
+
+		case 9:
+		   num=StrToInt(Edit1->Text);
+		   n.ponerMayorAlFinal(num);
+		   Label1->Caption=IntToStr(num);
+		break;
+
+        case 10:
+		   num=StrToInt(Edit1->Text);
+		   Label1->Caption=FloatToStr(n.serie1(num));
 		break;
 	}
 }
@@ -145,6 +156,20 @@ void __fastcall TForm1::esPrimo1Click(TObject *Sender)
 	opt=8;
 	Label5->Caption=" Muestra si un numero es Primo o no \n entrada1: numero \n salida1: indica si el numero es primo o no";
 
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::ponerDigitoMayorAlFinal1Click(TObject *Sender)
+{
+	opt=9;
+	Label5->Caption=" Pone el digito mayor del numero al final \n entrada1: numero \n salida1: Muestra el numero con el digito mayor al final";
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::serie11Click(TObject *Sender)
+{
+	opt=10;
+	Label5->Caption=" Muestra una sumatoria de una serie  \n entrada1: numero \n salida1: Muestra la sumatoria de la serie 1+4/3+8/7+16/15...";
 }
 //---------------------------------------------------------------------------
 
