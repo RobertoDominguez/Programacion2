@@ -12,6 +12,8 @@
 #include <Vcl.Grids.hpp>
 
 #include "UCNaturalR.h"
+#include "UCCadenaR.h"
+#include "UCVectorR.h"
 //---------------------------------------------------------------------------
 class TForm1 : public TForm
 {
@@ -64,6 +66,9 @@ __published:	// IDE-managed Components
 	TMenuItem *esPrimo1;
 	TMenuItem *ponerDigitoMayorAlFinal1;
 	TMenuItem *serie11;
+	TMenuItem *ContarPalabras1;
+	TMenuItem *OrdenarVector1;
+	TMenuItem *OrdenarVectorRango1;
 	void __fastcall Button1Click(TObject *Sender);
 	void __fastcall DigitoMayor1Click(TObject *Sender);
 	void __fastcall InvertirNumero1Click(TObject *Sender);
@@ -79,9 +84,15 @@ __published:	// IDE-managed Components
 	void __fastcall esPrimo1Click(TObject *Sender);
 	void __fastcall ponerDigitoMayorAlFinal1Click(TObject *Sender);
 	void __fastcall serie11Click(TObject *Sender);
+	void __fastcall ContarPalabras1Click(TObject *Sender);
+	void __fastcall OrdenarVector1Click(TObject *Sender);
+	void __fastcall OrdenarVectorRango1Click(TObject *Sender);
 private:	// User declarations
 	NaturalR n;
+	CadenaR c;
+    VectorR v;
 	int opt;
+
 
 public:		// User declarations
 	__fastcall TForm1(TComponent* Owner);

@@ -1,0 +1,20 @@
+//---------------------------------------------------------------------------
+
+#ifndef UCVectorRH
+#define UCVectorRH
+//---------------------------------------------------------------------------
+#endif
+
+#include <System.Classes.hpp>
+#include <Vcl.Forms.hpp>
+#include <Vcl.Grids.hpp>
+
+typedef unsigned char byte; //[0,255]
+
+
+class VectorR{
+	private:
+
+	public:
+		void bubble(TStringGrid *v,Word n);
+};

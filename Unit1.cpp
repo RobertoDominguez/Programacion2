@@ -48,6 +48,7 @@ void __fastcall TForm1::Button1Click(TObject *Sender)
 	int num=0;
 	int pos=0;
 	int pos2=0;
+	String cadena;
 	switch (opt) {
 		case 1:
 			num=StrToInt(Edit1->Text);
@@ -98,6 +99,26 @@ void __fastcall TForm1::Button1Click(TObject *Sender)
         case 10:
 		   num=StrToInt(Edit1->Text);
 		   Label1->Caption=FloatToStr(n.serie1(num));
+		break;
+
+		case 100:
+			cadena=Edit1->Text;
+			Label1->Caption=IntToStr(c.cantidadPalabras(cadena));
+		break;
+
+		case 1000:
+			v.sortBubble(StringGrid1,StringGrid1->ColCount);
+		break;
+
+		case 1001:
+			pos=StrToInt(Edit1->Text);
+			pos2=StrToInt(Edit2->Text);
+			if (pos2<=StringGrid1->ColCount && pos>=1) {
+				v.sortRangeBubble(StringGrid1,pos,pos2);
+			}else{
+				Label1->Caption="Error rango invalido";
+            }
+
 		break;
 	}
 }
@@ -170,6 +191,28 @@ void __fastcall TForm1::serie11Click(TObject *Sender)
 {
 	opt=10;
 	Label5->Caption=" Muestra una sumatoria de una serie  \n entrada1: numero \n salida1: Muestra la sumatoria de la serie 1+4/3+8/7+16/15...";
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::ContarPalabras1Click(TObject *Sender)
+{
+	opt=100;
+	Label5->Caption=" Muestra la cantidad de palabras de una cadena \n entrada1: cadena \n salida1: Cantidad de palabras de la cadena";
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::OrdenarVector1Click(TObject *Sender)
+{
+	opt=1000;
+	Label5->Caption=" Ordena el vector";
+}
+//---------------------------------------------------------------------------
+
+
+void __fastcall TForm1::OrdenarVectorRango1Click(TObject *Sender)
+{
+	opt=1001;
+	Label5->Caption=" Ordena el vector entre un rango A y B";
 }
 //---------------------------------------------------------------------------
 

@@ -396,9 +396,21 @@ object Form1: TForm1
     end
     object Cadena1: TMenuItem
       Caption = 'Cadena'
+      object ContarPalabras1: TMenuItem
+        Caption = 'ContarPalabras'
+        OnClick = ContarPalabras1Click
+      end
     end
     object Vector1: TMenuItem
       Caption = 'Vector'
+      object OrdenarVector1: TMenuItem
+        Caption = 'OrdenarVector'
+        OnClick = OrdenarVector1Click
+      end
+      object OrdenarVectorRango1: TMenuItem
+        Caption = 'OrdenarVectorRango'
+        OnClick = OrdenarVectorRango1Click
+      end
     end
     object Matriz1: TMenuItem
       Caption = 'Matriz'
