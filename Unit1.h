@@ -69,6 +69,7 @@ __published:	// IDE-managed Components
 	TMenuItem *ContarPalabras1;
 	TMenuItem *OrdenarVector1;
 	TMenuItem *OrdenarVectorRango1;
+	TMenuItem *estaOrdenadoAsc1;
 	void __fastcall Button1Click(TObject *Sender);
 	void __fastcall DigitoMayor1Click(TObject *Sender);
 	void __fastcall InvertirNumero1Click(TObject *Sender);
@@ -87,6 +88,7 @@ __published:	// IDE-managed Components
 	void __fastcall ContarPalabras1Click(TObject *Sender);
 	void __fastcall OrdenarVector1Click(TObject *Sender);
 	void __fastcall OrdenarVectorRango1Click(TObject *Sender);
+	void __fastcall estaOrdenadoAsc1Click(TObject *Sender);
 private:	// User declarations
 	NaturalR n;
 	CadenaR c;

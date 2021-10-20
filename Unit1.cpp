@@ -96,9 +96,18 @@ void __fastcall TForm1::Button1Click(TObject *Sender)
 		   Label1->Caption=IntToStr(num);
 		break;
 
-        case 10:
+		case 10:
 		   num=StrToInt(Edit1->Text);
 		   Label1->Caption=FloatToStr(n.serie1(num));
+		break;
+
+		case 11:
+		   num=StrToInt(Edit1->Text);
+		   if (n.estaOrdenado(num)) {
+		   Label1->Caption="Esta ordenado de manera Ascendente";
+		   }else{
+			   Label1->Caption="No esta ordenado de manera Ascendente";
+		   }
 		break;
 
 		case 100:
@@ -213,6 +222,13 @@ void __fastcall TForm1::OrdenarVectorRango1Click(TObject *Sender)
 {
 	opt=1001;
 	Label5->Caption=" Ordena el vector entre un rango A y B";
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::estaOrdenadoAsc1Click(TObject *Sender)
+{
+	opt=11;
+	Label5->Caption=" Pregunta si el numero esta ordenado de manera ascendente";
 }
 //---------------------------------------------------------------------------
 

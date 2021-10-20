@@ -24,4 +24,5 @@ class NaturalR{
 	void eliminarDigito(int &n,byte dig);
 	void ponerMayorAlFinal(int &n);
 	float serie1(byte n); //1+4/3+8/7+16/15
+	bool estaOrdenado(int n);
 };

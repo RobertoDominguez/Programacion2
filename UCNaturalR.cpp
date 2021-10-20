@@ -19,6 +19,8 @@ short NaturalR::cantidadDigitos(int n){
 	return res;
 }
 
+
+
 int NaturalR::sumaDigitos(int n){
 	int suma;
 	if (n==0) {
@@ -35,7 +37,7 @@ short NaturalR::mayorDig(int n){
 	if (n==0){
 	   may=0;
 	}else{
-		may=mayorDig(n/10);
+		may=mayorDig(n/10);//mayor digito
 		short dig=n%10;
 		if (dig>may){
 			may=dig;
@@ -158,7 +160,7 @@ void NaturalR::eliminarDigito(int &n,byte dig){
 	}else{
 	  short digAct=n%10;
 	  n=n/10;
-	  eliminarDigito(n,dig);
+	  eliminarDigito(n,dig);//0
 	  if (digAct!=dig){
 		n=n*10+digAct;
 	  }
@@ -169,7 +171,7 @@ void NaturalR::eliminarDigito(int &n,byte dig){
 void NaturalR::ponerMayorAlFinal(int &n){
 	short may=mayorDig(n);
 	eliminarDigito(n,may);
-    n=n*10+may;
+	n=n*10+may;
 }
 
 float NaturalR::serie1(byte n,byte dig){
@@ -184,4 +186,19 @@ float NaturalR::serie1(byte n,byte dig){
 
 float NaturalR::serie1(byte n){
 	return (n==0)? 0 : serie1(n,4);
+}
+
+
+//12345
+bool NaturalR::estaOrdenado(int n){
+	bool res;
+	if (n==0) {
+		res=true;
+	}else{
+		byte dig1=n % 10;
+		n=n/10;
+		byte dig2=n % 10;
+		res=estaOrdenado(n) && (dig1>=dig2);
+	}
+	return res;
 }

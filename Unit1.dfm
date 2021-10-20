@@ -393,6 +393,10 @@ object Form1: TForm1
         Caption = 'serie1'
         OnClick = serie11Click
       end
+      object estaOrdenadoAsc1: TMenuItem
+        Caption = 'estaOrdenadoAsc'
+        OnClick = estaOrdenadoAsc1Click
+      end
     end
     object Cadena1: TMenuItem
       Caption = 'Cadena'

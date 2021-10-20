@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>2021/09/24 13:06:35.000.585,=E:\Proyectos\radstudio\Project1PCH1.h</Transaction>
     <Transaction>2021/09/24 13:06:35.000.646,=E:\Proyectos\radstudio\Unit1.cpp</Transaction>
-    <Transaction>2021/09/24 13:07:00.000.779,E:\Proyectos\radstudio\Unit1.h=E:\Universidad\Pro2\RECURSION\Unit1.h</Transaction>
-    <Transaction>2021/09/24 13:07:00.000.779,E:\Proyectos\radstudio\Unit1.cpp=E:\Universidad\Pro2\RECURSION\Unit1.cpp</Transaction>
-    <Transaction>2021/09/24 13:07:00.000.779,E:\Proyectos\radstudio\Unit1.dfm=E:\Universidad\Pro2\RECURSION\Unit1.dfm</Transaction>
-    <Transaction>2021/09/24 13:07:03.000.232,E:\Proyectos\radstudio\Project1PCH1.h=E:\Universidad\Pro2\RECURSION\Project1PCH1.h</Transaction>
-    <Transaction>2021/09/24 13:07:04.000.478,E:\Proyectos\radstudio\Project1.cbproj=E:\Universidad\Pro2\RECURSION\Project1.cbproj</Transaction>
+    <Transaction>2021/09/24 13:06:35.000.585,=E:\Proyectos\radstudio\Project1PCH1.h</Transaction>
+    <Transaction>2021/09/24 13:07:00.000.779,E:\Universidad\Pro2\RECURSION\Unit1.dfm=E:\Proyectos\radstudio\Unit1.dfm</Transaction>
+    <Transaction>2021/09/24 13:07:00.000.779,E:\Universidad\Pro2\RECURSION\Unit1.cpp=E:\Proyectos\radstudio\Unit1.cpp</Transaction>
+    <Transaction>2021/09/24 13:07:00.000.779,E:\Universidad\Pro2\RECURSION\Unit1.h=E:\Proyectos\radstudio\Unit1.h</Transaction>
+    <Transaction>2021/09/24 13:07:03.000.232,E:\Universidad\Pro2\RECURSION\Project1PCH1.h=E:\Proyectos\radstudio\Project1PCH1.h</Transaction>
+    <Transaction>2021/09/24 13:07:04.000.478,E:\Universidad\Pro2\RECURSION\Project1.cbproj=E:\Proyectos\radstudio\Project1.cbproj</Transaction>
     <Transaction>2021/09/24 13:37:01.000.587,=E:\Universidad\Pro2\RECURSION\Unit2.cpp</Transaction>
-    <Transaction>2021/09/24 13:37:18.000.789,E:\Universidad\Pro2\RECURSION\Unit2.cpp=E:\Universidad\Pro2\RECURSION\UCNaturalR.cpp</Transaction>
-    <Transaction>2021/09/24 13:37:18.000.789,E:\Universidad\Pro2\RECURSION\Unit2.h=E:\Universidad\Pro2\RECURSION\UCNaturalR.h</Transaction>
+    <Transaction>2021/09/24 13:37:18.000.789,E:\Universidad\Pro2\RECURSION\UCNaturalR.h=E:\Universidad\Pro2\RECURSION\Unit2.h</Transaction>
+    <Transaction>2021/09/24 13:37:18.000.789,E:\Universidad\Pro2\RECURSION\UCNaturalR.cpp=E:\Universidad\Pro2\RECURSION\Unit2.cpp</Transaction>
     <Transaction>2021/09/24 22:08:37.000.385,=E:\Universidad\Pro2\RECURSION\Unit2.cpp</Transaction>
-    <Transaction>2021/09/24 22:08:58.000.098,E:\Universidad\Pro2\RECURSION\Unit2.h=E:\Universidad\Pro2\RECURSION\UCCadenaR.h</Transaction>
-    <Transaction>2021/09/24 22:08:58.000.098,E:\Universidad\Pro2\RECURSION\Unit2.cpp=E:\Universidad\Pro2\RECURSION\UCCadenaR.cpp</Transaction>
-    <Transaction>2021/10/16 23:27:27.297,=E:\Universidad\Pro2\RECURSION\Unit2.cpp</Transaction>
-    <Transaction>2021/10/16 23:27:34.306,E:\Universidad\Pro2\RECURSION\CVectorR.h=E:\Universidad\Pro2\RECURSION\Unit2.h</Transaction>
-    <Transaction>2021/10/16 23:27:34.306,E:\Universidad\Pro2\RECURSION\CVectorR.cpp=E:\Universidad\Pro2\RECURSION\Unit2.cpp</Transaction>
-    <Transaction>2021/10/16 23:46:11.588,E:\Universidad\Pro2\RECURSION\UCVectorR.h=E:\Universidad\Pro2\RECURSION\CVectorR.h</Transaction>
-    <Transaction>2021/10/16 23:46:11.588,E:\Universidad\Pro2\RECURSION\UCVectorR.cpp=E:\Universidad\Pro2\RECURSION\CVectorR.cpp</Transaction>
+    <Transaction>2021/09/24 22:08:58.000.098,E:\Universidad\Pro2\RECURSION\UCCadenaR.cpp=E:\Universidad\Pro2\RECURSION\Unit2.cpp</Transaction>
+    <Transaction>2021/09/24 22:08:58.000.098,E:\Universidad\Pro2\RECURSION\UCCadenaR.h=E:\Universidad\Pro2\RECURSION\Unit2.h</Transaction>
+    <Transaction>2021/10/16 23:27:27.000.297,=E:\Universidad\Pro2\RECURSION\Unit2.cpp</Transaction>
+    <Transaction>2021/10/16 23:27:34.000.306,E:\Universidad\Pro2\RECURSION\Unit2.h=E:\Universidad\Pro2\RECURSION\CVectorR.h</Transaction>
+    <Transaction>2021/10/16 23:27:34.000.306,E:\Universidad\Pro2\RECURSION\Unit2.cpp=E:\Universidad\Pro2\RECURSION\CVectorR.cpp</Transaction>
+    <Transaction>2021/10/16 23:46:11.000.588,E:\Universidad\Pro2\RECURSION\CVectorR.cpp=E:\Universidad\Pro2\RECURSION\UCVectorR.cpp</Transaction>
+    <Transaction>2021/10/16 23:46:11.000.588,E:\Universidad\Pro2\RECURSION\CVectorR.h=E:\Universidad\Pro2\RECURSION\UCVectorR.h</Transaction>
   </Transactions>
 </BorlandProject>
